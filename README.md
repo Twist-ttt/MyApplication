@@ -1,4 +1,4 @@
-# 随手记保质期
+# ExpiryTracker
 
 一款 Android 商品保质期管理应用，帮助用户追踪食品、药品、化妆品等商品的保质期，避免使用过期物品。
 
@@ -63,8 +63,8 @@ app/src/main/java/com/example/myapplication/
 
 1. 克隆仓库：
    ```bash
-   git clone https://github.com/Twist-ttt/MyApplication.git
-   cd MyApplication
+   git clone https://github.com/Twist-ttt/ExpiryTracker.git
+   cd ExpiryTracker
    ```
 
 2. 使用 Android Studio 打开项目
@@ -94,6 +94,7 @@ app/src/main/java/com/example/myapplication/
 
 ## 作者
 
+- 项目名称：ExpiryTracker
 - GitHub: [Twist-ttt](https://github.com/Twist-ttt)
 
 ## 许可证
