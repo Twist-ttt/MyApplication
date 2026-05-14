@@ -1,3 +1,68 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">随手记保质期</string>
+
+    <!-- 主界面 -->
+    <string name="search_hint">搜索商品名称…</string>
+    <string name="fab_add">添加商品</string>
+    <string name="empty_list">还没有添加任何商品\n点击右下角按钮开始添加</string>
+    <string name="label_all">全部</string>
+
+    <!-- 添加/编辑 -->
+    <string name="title_add_item">添加商品</string>
+    <string name="title_edit_item">编辑商品</string>
+    <string name="hint_item_name">商品名称</string>
+    <string name="hint_category">选择类别</string>
+    <string name="hint_buy_date">购买日期</string>
+    <string name="hint_expire_date">过期日期</string>
+    <string name="hint_remind_days">提前提醒天数</string>
+    <string name="hint_note">备注（可选）</string>
+    <string name="btn_save">保存</string>
+    <string name="error_name_empty">请输入商品名称</string>
+    <string name="error_date_empty">请选择日期</string>
+    <string name="error_date_range">购买日期不能晚于过期日期</string>
+    <string name="msg_saved">保存成功</string>
+
+    <!-- 详情 -->
+    <string name="title_detail">商品详情</string>
+    <string name="label_name">名称</string>
+    <string name="label_category">类别</string>
+    <string name="label_buy_date">购买日期</string>
+    <string name="label_expire_date">过期日期</string>
+    <string name="label_remind_days">提醒天数</string>
+    <string name="label_note">备注</string>
+    <string name="label_status">状态</string>
+    <string name="label_remaining">剩余 %d 天</string>
+    <string name="label_expired">已过期 %d 天</string>
+    <string name="label_today">今天到期</string>
+    <string name="btn_mark_used">标记已使用</string>
+    <string name="btn_delete">删除</string>
+    <string name="btn_edit">编辑</string>
+    <string name="dialog_delete_title">确认删除</string>
+    <string name="dialog_delete_message">确定要删除「%s」吗？此操作不可撤销。</string>
+    <string name="dialog_confirm">确认</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="msg_deleted">已删除</string>
+    <string name="msg_marked_used">已标记为已使用</string>
+
+    <!-- 通知 -->
+    <string name="notification_title">保质期提醒</string>
+
+    <!-- 类别 -->
+    <string-array name="categories">
+        <item>食品</item>
+        <item>饮品</item>
+        <item>日用品</item>
+        <item>药品</item>
+        <item>化妆品</item>
+        <item>其他</item>
+    </string-array>
+
+    <!-- 状态 -->
+    <string name="status_normal">正常</string>
+    <string name="status_expiring">即将过期</string>
+    <string name="status_expired">已过期</string>
+    <string name="status_used">已使用</string>
+
+    <!-- 权限 -->
+    <string name="permission_notification_rationale">需要通知权限才能发送过期提醒</string>
 </resources>
